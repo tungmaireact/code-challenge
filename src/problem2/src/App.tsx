@@ -143,7 +143,7 @@ const CurrencySwapForm: React.FC = () => {
 
   return (
     <div className="h-screen grid place-items-center">
-      <div className="w-1/4 mx-auto mt-10 p-10 bg-white shadow-3xl rounded-3xl">
+      <div className="w-[550px] mx-auto mt-10 p-10 bg-white shadow-3xl rounded-3xl">
         <h2 className="text-3xl font-bold mt-4 mb-8 uppercase text-center font-title">Currency swap form</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <div className="flex gap-2 items-start">
